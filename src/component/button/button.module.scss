@@ -1,0 +1,22 @@
+.btn {
+    background-color: rgb(11, 11, 15);
+    width: 49%;
+    padding: 10px 16px;
+    border: 1px solid rgb(117, 112, 112);
+    color: wheat;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: brown;
+    border-color: brown;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
