@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <>
       <div className={styles.container}>
-        <ImageContainer imgUrl="/image/car.jpg" />
+        <ImageContainer imgUrl="/react-project01/image/car.jpg" />
         <Description dis={dis} title={"nostalgic Car is best"} />
         <div className={styles.btnContainer}>
           <Button issue={"SHARE"} />
