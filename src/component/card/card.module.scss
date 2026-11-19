@@ -12,9 +12,12 @@
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  // فقط دسکتاپ
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    }
   }
 
   .btnContainer {
@@ -24,12 +27,11 @@
     padding: 14px;
   }
 
-  // Tablet
   @media (max-width: 992px) {
     width: 45%;
+    transition: none;
   }
 
-  // Mobile
   @media (max-width: 600px) {
     width: 90%;
 

@@ -5,24 +5,29 @@
   border: 1px solid rgb(117, 112, 112);
   color: wheat;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
 
-  &:hover {
-    background-color: brown;
-    border-color: brown;
-    transform: translateY(-2px);
-  }
-
   &:active {
-    transform: translateY(0);
+    transform: none;
   }
 
-  @media (max-width: 600px) {
+  // فقط دسکتاپ
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: brown;
+      border-color: brown;
+      transform: translateY(-2px);
+    }
+  }
+
+  // موبایل و تبلت
+  @media (max-width: 992px) {
     padding: 9px 8px;
     font-size: 14px;
+    transition: none;
   }
 
   @media (max-width: 380px) {
