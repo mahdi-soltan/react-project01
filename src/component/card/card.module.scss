@@ -23,4 +23,19 @@
     gap: 12px;
     padding: 14px;
   }
+
+  // Tablet
+  @media (max-width: 992px) {
+    width: 45%;
+  }
+
+  // Mobile
+  @media (max-width: 600px) {
+    width: 90%;
+
+    .btnContainer {
+      gap: 8px;
+      padding: 10px;
+    }
+  }
 }

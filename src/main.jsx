@@ -10,7 +10,8 @@ createRoot(document.getElementById('root')).render(
 )
 
 
-
+// after any change for save to git:
 //git add .
 // git commit -m "Update project"
 // git push
+// npm run deploy
