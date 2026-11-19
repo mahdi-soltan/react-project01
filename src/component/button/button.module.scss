@@ -8,9 +8,18 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.1s ease, background-color 0.1s ease;
+  transition: all 0.3s ease;
 
-  // هنگام کلیک
+  // Hover فقط دسکتاپ
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: brown;
+      border-color: brown;
+      transform: translateY(-2px);
+    }
+  }
+
+  // حالت کلیک برای همه دستگاه‌ها
   &:active {
     background-color: brown;
     border-color: brown;
@@ -20,6 +29,7 @@
   @media (max-width: 600px) {
     padding: 9px 8px;
     font-size: 14px;
+    transition: transform 0.1s ease;
   }
 
   @media (max-width: 380px) {
