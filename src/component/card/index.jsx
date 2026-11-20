@@ -9,7 +9,7 @@ const Card = () => {
       <div className={styles.container}>
         <ImageContainer imgUrl="/react-project01/image/car.jpg" />
         <Description
-          dis=" sssssSome things never lose their beauty… 🍂🚘
+          dis=" Some things never lose their beauty… 🍂🚘
 
                An old car, an autumn street, and a thousand memories hidden in every fallen leaf. Sometimes, the past feels more beautiful than the present.
 
